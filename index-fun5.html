@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>função 5</title>
+</head>
+
+<body>
+    <script>
+        function raiz(a, b, c) {
+
+            let delta = (b ** 2) - 4 * a * c
+            let x1 = (-b + (Math.sqrt(delta))) / (2 * a)
+            let x2 = (-b - (Math.sqrt(delta))) / (2 * a)
+            document.write(x1, " raíz 1 <br>")
+            document.write(x2, " raíz 2")
+        }
+        raiz(1, -6, 5)
+    </script>
+</body>
+
+</html>
